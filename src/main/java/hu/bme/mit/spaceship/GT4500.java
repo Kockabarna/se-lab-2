@@ -31,7 +31,8 @@ public class GT4500 implements SpaceShip {
   * @param firingMode how many torpedo bays to fire
   * 	SINGLE: fires only one of the bays.
   * 			- For the first time the primary store is fired.
-  * 			- To give some cooling time to the torpedo stores, torpedo stores are fired alternating.
+  * 			- To give some cooling time to the torpedo stores, torpedo stores are fired alter
+nating.
   * 			- But if the store next in line is empty, the ship tries to fire the other store.
   * 			- If the fired store reports a failure, the ship does not try to fire the other one.
   * 	ALL:	tries to fire both of the torpedo stores.
